@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ComponentBibliotecaComponent } from './component-biblioteca.component';
+import { ComponentBibliotecaComponent } from './biblioteca.component';
 
 describe('ComponentBibliotecaComponent', () => {
   let component: ComponentBibliotecaComponent;

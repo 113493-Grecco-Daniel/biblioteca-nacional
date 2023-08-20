@@ -1,0 +1,16 @@
+<div class="container">
+<div class="card" style="width: 18rem;">
+    <img src="../../assets/book.jpg" class="card-img-top" alt="book..">
+    <div class="card-body">
+      <h5 class="card-title"><b>Título:</b> {{nombre}}</h5>
+      <hr>
+      <p class="card-text"><b>Descripción:</b> {{descripcion}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><b>Categoría:</b> {{categoria}}</li>
+      <li class="list-group-item"><b>Año de publicación:</b> {{ano_de_publicacion}} </li>
+      <li class="list-group-item"> <button class= "btn btn-primary" (click)="incrementarAno()">Incrementar año de publicación </button> </li>
+      <li class="list-group-item"><b>Autor:</b> {{autor}}</li>
+    </ul>    
+  </div>
+</div>
