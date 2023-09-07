@@ -1,0 +1,17 @@
+<div class="container my-5" style="border: solid 2px blue; text-align: center;">
+    <p>Ingrese los 2 números</p>
+    <ul class="list-unstyled" style="text-align: center;">
+      <li>
+        Numero1: <input type="number" [value]="NumberOne" (input)="onNumberOneChanged($event)" class="text-center" />
+      </li>
+      <li>
+        Numero2: <input type="number" [value]="NumberTwo" (input)="onNumberTwoChanged($event)" class="text-center" />
+      </li>
+      <li>Resultado: {{ result }}</li>
+    </ul>
+  
+    <app-operaciones [num1DelPadre]="NumberOne" [num2DelPadre]="NumberTwo" (resultadoParaPadre)="onCalculated($event)" (limpiarCampos)="onLimpiarCampos()"></app-operaciones>
+  </div>
+  
+
+<!-- corchete es entrada en componente hijo, parentesis es salida al padre -->

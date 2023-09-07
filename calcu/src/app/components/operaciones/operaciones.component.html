@@ -1,0 +1,16 @@
+
+   <div class="container my-5" style="border: 1px solid;">
+    <div class="d-flex justify-content-center align-items-center">
+      <ul class="list-unstyled my-3 d-flex flex-wrap justify-content-center align-items-center">
+        <li class="mx-2 my-2"> <button class="btn btn-primary btn-lg" style="width: 50px; height: 50px;" (click)="onSumar()"> + </button></li>
+        <li class="mx-2 my-2"> <button class="btn btn-primary btn-lg" style="width: 50px; height: 50px;" (click)="onRestar()"> - </button></li>
+        <li class="mx-2 my-2"> <button class="btn btn-primary btn-lg" style="width: 50px; height: 50px;" (click)="onMultiplicar()"> * </button></li>
+        <li class="mx-2 my-2"> <button class="btn btn-primary btn-lg" style="width: 50px; height: 50px;" (click)="onDividir()"> / </button></li>
+        <li class="mx-2 my-2"> <button class="btn btn-primary btn-lg" style="width: 50px; height: 50px;" (click)="onPotenciar()"> ^</button></li>
+        <li class="mx-2 my-2"><button class="btn btn-danger btn-lg" style="width: 50px; height: 50px;" (click)="onLimpiarCampos()">CC</button></li>
+      </ul>
+    </div>
+  
+    <p>Resultado: {{ resultado }}</p>
+  </div>
+  
